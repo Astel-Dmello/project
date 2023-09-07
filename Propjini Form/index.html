@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <label>
+        <center> <B>
+                <h1>Add Leads</h1>
+            </B></center>
+    </label>
+    <div class="container">
+        <div class="box">
+            <div class="form">
+
+                <h3><img src="user.png" width="19" height="19"> Personal Details</h3>
+                <div class="input-wrapper">
+                    <input type="text" id="input" required></input>
+                    <label for="input" class="placeholder">First Name</label>
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" id="name2" required ></input>
+                    <label for="name2" class="placeholder">Last Name</label>
+                </div>
+
+                <div class="input-wrapper">
+                    <input type="tel" id="tel" required></input>
+                    <label for="tel" class="placeholder"> Mobile No</label>
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" id="email" required/>
+                    <label for="email" class="placeholder">Email Address</label>
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" id="input1" required />
+                    <label for="input1" class="placeholder">Address</label>
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" id="input3" required/>
+                    <label for="input3" class="placeholder">Company Name</label>
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" id="input4" required />
+                    <label for="input4" class="placeholder">Salary Amount</label>
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" id="input5" required/>
+                    <label for="input5" class="placeholder">Social Account Link</label>
+
+                </div>
+                <div class="input-wrapper">
+                    <input type="date" id="date" style="width: 240px;" required>
+                    <label for="date" class="placeholder" >Date</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="box1">
+            <div class="form">
+                <h3><i class="fa-solid fa-house"></i> Required Property Details</h3>
+                <div class="">
+                    <label>Requirements
+                        <input type="radio" name="leadPriority" id="hot" value="Buy" required />Buy
+                        <input type="radio" name="leadPriority" id="hot" value="Rent" required />Rent<br><br>
+                    </label>
+
+
+                </div>
+                <div>
+                    <label>Property Type
+                        <input type="radio" name="leadPriority" id="hot" value="Residential" required />Residential
+                    <input type="radio" name="leadPriority" id="hot" value="Commercial" required />Commercial
+                    <input type="radio" name="leadPriority" id="hot" value="Industrial" required />Industrial
+                    <input type="radio" name="leadPriority" id="hot" value="Plot" required />Plot
+                    </label>
+                    
+                </div>
+
+                <div class="input-wrapper">
+                    <input type="text" id="input6"required />
+                    <label for="input6" class="placeholder">Location</label>
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" id="input7"required />
+                    <label for="input7" class="placeholder">Budget Min</label>
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" id="input8" required/>
+                    <label for="input8" class="placeholder">Budget Max</label>
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" id="input9" required />
+                    <label for="input9" class="placeholder">Property Purpose</label>
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" id="input0" required />
+                    <label for="input0" class="placeholder">Required property Status</label>
+
+                </div>
+
+                <div class="input-wrapper">
+                    <input type="text" id="input01" required />
+                    <label for="input01" class="placeholder">Furnish Status</label>
+                </div>
+
+
+                <div class="input-wrapper">
+                    <input type="text" id="input02" required />
+                    <label for="input02" class="placeholder">Floor Required</label>
+
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" id="input03" required />
+                    <label for="input03" class="placeholder">Searching Since</label>
+
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" id="input04" required />
+                    <label for="input04" class="placeholder">Property Feedback</label>
+
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" id="input05" required />
+                    <label for="input05" class="placeholder">Payment Option</label>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="form">
+                <h3><i class="fa-solid fa-house"></i> Lead Details</h3>
+                <!-- <label>Source Of Lead:</label>
+                <input type="text" class=""><br>
+                <label>Select Branch:</label>
+                <select name="Select Branch:" required>
+                    <option value=""></option>
+                    <option value="Main Branch">Main Branch</option>
+                    <option value="Bandra west">Bandra west</option>
+                    <option value="Borivali Branch">Borivali Branch</option>
+                </select><br>
+                <label>Lead Priority:</label>
+                <input type="radio" name="leadPriority" id="hot" value="hot" required />Hot
+                <input type="radio" name="leadPriority" id="warm" value="warm" required />Warm
+                <input type="radio" name="leadPriority" id="cold" value="cold" required />Cold<br><br>
+                <label>Assign Employees:</label>
+                <select name="Assign Employees">
+                    <option value=""></option>
+                    <option value="Selwyn lopies(Admin)">Selwyn lopies (Admin)</option>
+                    <option value="Alaska Temp (Telecaller)">Alaska Temp (Telecaller)</option>
+                    <option value="Daman Mhtre (Employe)">Daman Mhtre (Employe)</option>
+                </select><br>
+                <label>Expected Close Date:</label>
+                <input type="date" name="date" value="2023-07-18" min="1990-01-01" max="2024-12-31"><br>
+                <label>Sort Description:</label>
+                <input type="text"><br>
+                <label>Lead value:</label>
+                <input type="text">
+                <br><br> -->
+                <div class="input-wrapper">
+                    <input type="text" id="input06" required />
+                    <label for="input06" class="placeholder">Source Of Lead</label>
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" id="input07" required />
+                    <label for="input07" class="placeholder">Select Branch</label>
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" id="input08" required />
+                    <label for="input08" class="placeholder"> Assign Employees</label>
+                </div>
+            </div>
+
+            <div class="input-wrapper">
+                <input type="number" id="input09" required>
+                <label for="input09" class="placeholder">Lead Value</label>
+            </div>
+            <div class="input-wrapper">
+                <input type="text" id="input00" required  />
+                <label for="input00" class="placeholder">Description</label>
+            </div>
+
+            <center>
+                <button class="button1">Cancel</button>
+                <button class="button2">Exit</button>
+                <button class="button3">Save</button>
+            </center>
+
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
